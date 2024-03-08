@@ -8,6 +8,7 @@ public interface FlightFilterService {
 
 
     List<Flight> removeDepartureBeforeThisTime(List<Flight> flights);
+
     List<Flight> removeSegmentsDateArrivalBeforeDateDeparture(List<Flight> flights);
 
     List<Flight> removeFlightsMoreThanTwoHourOnTheGround(List<Flight> flights);
